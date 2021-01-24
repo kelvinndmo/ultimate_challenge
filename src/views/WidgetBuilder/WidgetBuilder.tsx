@@ -33,9 +33,14 @@ const WidgetBuilder: FC = () => {
     <Container>
       <Grid className={classes.root} container spacing={3} direction="column">
         <Grid item container justify="space-between" direction="row">
-          <Typography variant="h5" component="h2">
-            General Intentions
-          </Typography>
+          <Grid item>
+            <Typography variant="h5" component="h2">
+              General Intentions
+            </Typography>
+            <Typography component="p" color="textSecondary">
+              Select intentions by selecting cards
+            </Typography>
+          </Grid>
           <FormControlLabel
             control={
               <Checkbox
