@@ -46,12 +46,14 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'import/no-cycle': 'off',
     '@typescript-eslint/camelcase': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
   overrides: [
     {
       files: ['src/reportWebVitals.ts'],
       rules: {
         'explicit-module-boundary-types': ['off'],
+        '@typescript-eslint/explicit-module-boundary-types': ['off'],
       },
     },
   ],
