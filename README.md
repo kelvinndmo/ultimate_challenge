@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![TypeScript](https://img.shields.io/npm/types/typescript)](https://www.typescriptlang.org/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/25e2876ebceec867da28/maintainability)](https://codeclimate.com/github/kelvinndmo/ultimate_challenge/maintainability)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ultimate Challenge
 
-## Available Scripts
+- This is an implementation of the Ultimate.ai Frontend React Challenge
 
-In the project directory, you can run:
+## Required Features
 
-### `yarn start`
+- Users can get an overview over all the pretrained intents that are available (see intents.json).
+- Clients can see what each intent is used for and see at least one example expression without any extra clicks.
+- Clients can select/unselect intents individually or all at once.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### `yarn test`
+## Installation and setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Installation and Setup
 
-### `yarn build`
+Clone the repository below
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone git@github.com:kelvinndmo/ultimate_challenge.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install required Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    yarn install
 
-### `yarn eject`
+## Running the application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+- yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Testing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    - Testing with coverage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    yarn test --coverage
 
-## Learn More
+### Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kelvin Onkundi Ndemo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+MIT
